@@ -19,7 +19,7 @@
   },
   "scripts": {
     "predeploy": "npm run build",
-    "delpoy": "gh-pages -d build",
+    "delpoy": "gh-pages -b main -d build",
     "deploy": "node --version",
     "start": "react-scripts start",
     "build": "react-scripts build",
